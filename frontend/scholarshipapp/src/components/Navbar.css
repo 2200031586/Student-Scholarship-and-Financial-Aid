@@ -1,0 +1,88 @@
+/* Navbar styling */
+.navbar {
+    background-color: #007BFF; /* Blue background color */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    margin-right: 20px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar .auth-links {
+    display: flex;
+  }
+  
+  .navbar .auth-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .navbar .auth-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Footer styling */
+  footer {
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+    color: #6c757d;
+  }
+  #apply-form {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .apply-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .apply-btn:hover {
+    background-color: #3e8e41;
+  }
+      

@@ -1,0 +1,66 @@
+{
+    "scholarships": [
+      {
+        "id": 1,
+        "name": "Merit-Based Scholarship",
+        "description": "Awarded to students with outstanding academic achievement",
+        "amount": 5000,
+        "deadline": "2024-06-15"
+      },
+      {
+        "id": 2,
+        "name": "Need-Based Scholarship",
+        "description": "Awarded to students demonstrating financial need",
+        "amount": 3000,
+        "deadline": "2024-07-01"
+      },
+      {
+        "id": 3,
+        "name": "Diversity Scholarship",
+        "description": "Promoting diversity and inclusion in education",
+        "amount": 4000,
+        "deadline": "2024-08-15"
+      }
+    ],
+    "students": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "johndoe@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "janesmith@example.com"
+      }
+    ],
+    "applications": [
+      {
+        "id": 1,
+        "studentId": 1,
+        "scholarshipId": 1,
+        "status": "pending"
+      },
+      {
+        "id": 2,
+        "studentId": 2,
+        "scholarshipId": 2,
+        "status": "approved"
+      }
+    ],
+    "notifications": [
+      {
+        "id": 1,
+        "message": "New scholarship application submitted",
+        "timestamp": "2024-05-01T12:00:00"
+      },
+      {
+        "id": 2,
+        "message": "Scholarship application approved",
+        "timestamp": "2024-05-15T14:00:00"
+      }
+    ]
+  }
+  
+  
+  

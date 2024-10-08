@@ -1,0 +1,23 @@
+.application-list {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .application-list table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .application-list th,
+  .application-list td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .application-list th {
+    background-color: #f0f0f0;
+  }
+  
+  

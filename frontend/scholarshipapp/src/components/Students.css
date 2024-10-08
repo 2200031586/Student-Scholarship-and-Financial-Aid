@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box; /* Apply box-sizing globally */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Set font family */
+    line-height: 1.6; /* Set line height */
+    color: #333; /* Text color */
+    background-color: #f9f9f9; /* Background color */
+}
+
+/* Students page styles */
+.students-container {
+    max-width: 800px; /* Maximum width */
+    margin: 40px auto; /* Centered margin */
+    padding: 20px; /* Padding around container */
+    background-color: #fff; /* Background color of container */
+    border: 1px solid #ddd; /* Border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.students-grid {
+    display: grid; /* Use CSS grid layout */
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 20px; /* Space between grid items */
+}
+
+.student-card {
+    background-color: #fff; /* Background color */
+    padding: 20px; /* Padding for cards */
+    border: 1px solid #ddd; /* Border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+.student-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.student-card img {
+    width: 100%; /* Full width of card */
+    height: 150px; /* Fixed height */
+    object-fit: cover; /* Cover the image */
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+}
+
+.student-card h2 {
+    font-size: 18px; /* Font size for name */
+    font-weight: bold; /* Bold font */
+    margin-bottom: 10px; /* Space below name */
+}
+
+.student-card p {
+    font-size: 14px; /* Font size for testimonial */
+    color: #666; /* Color for testimonial */
+}

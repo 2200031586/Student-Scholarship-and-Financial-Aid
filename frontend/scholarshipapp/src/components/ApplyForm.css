@@ -1,0 +1,73 @@
+.apply-form {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .apply-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-control {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .form-control:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn btn-primary {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn btn-primary:hover {
+    background-color: #3e8e41;
+  }
+  
+  
+  .apply-now-button {
+    width: 50%;
+    margin-top: 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove borders */
+    padding: 10px 20px; /* Button padding */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .apply-now-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    cursor: pointer; /* Change cursor to pointer */
+  }
+  
+  .apply-now-button:focus {
+    outline: none; /* Remove focus outline */
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.5); /* Glow effect on focus */
+  }
+        

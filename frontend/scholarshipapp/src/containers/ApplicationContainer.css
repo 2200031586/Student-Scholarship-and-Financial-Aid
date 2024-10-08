@@ -1,0 +1,24 @@
+.application-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .application-container .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .application-container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .application-container .col-md-8 {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
